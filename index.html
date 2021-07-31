@@ -4,30 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Promedio/style/style.css">
     <title>Herramienta de Educacion Inteligente</title>
 </head>
 <body>
-  <header>
-      <h1>
+  <header class="header">
+      <h1 class="title">
         Notas del Trimestre
       </h1>
   </header>
-  <main>
-        <span>Nombres:</span>
-        <input type="text" name="nombre" id="nombre" placeholder="Escriba su Nombre">
+  <main class="contenido">
+    <div class="container">
+      <span class="span">Nombre Completo:</span>
+        <input type="text" name="nombre" class="input" id="nombre" placeholder="Escriba su Nombre">
+        <span class="span">Nota 1:</span>
+        <input type="text" id="nota1" class="input" name=""  placeholder="Nota 1:" >
 
-        <span>Nota 1:</span>
-        <input type="text" id="nota1" name=""  placeholder="Nota 1:" >
-        <span>Nota 2:</span>
-        <input type="text" id="nota2" name="" placeholder="Nota 2:" >
-        <span>Nota 3:</span>
-        <input type="text" id="nota3" name="" placeholder="Nota 3:" >
-        <span>Nota 4:</span>
-        <input type="text" id="nota4" name="" placeholder="Nota 4:" >
-        <span>Nota 5:</span>
-        <input type="text" id="nota5" name="" placeholder="Nota 5:" >
-        <button id="enviar"> Enviar</button>
-        <p id="p-result">Resultado...</p>
+        <span class="span">Nota 2:</span>
+        <input type="text" id="nota2" class="input" name="" placeholder="Nota 2:" >
+
+        <span class="span">Nota 3:</span>
+        <input type="text" id="nota3" class="input" name="" placeholder="Nota 3:" >
+
+        <span class="span">Nota 4:</span>
+        <input type="text" id="nota4" class="input" name="" placeholder="Nota 4:" >
+
+        <span class="span">Nota 5:</span>
+        <input type="text" id="nota5" class="input" name="" placeholder="Nota 5:" >
+
+        <button id="enviar" class="button"> Enviar</button>
+    </div>
+    <div class="resultado">
+      <img src="/Promedio/img/índice.jpg" alt="Esperar Resultado">
+      <p id="p-result" class="p">Resultado...</p>
+    </div>
+        
         <script src="/Promedio/js/promedio.js"></script>
   </main>
 </body>

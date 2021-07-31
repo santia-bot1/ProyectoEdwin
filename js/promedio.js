@@ -34,7 +34,5 @@ function promedio(){
             result.textContent= 'Señor(a) '+nombre.value+' Su promedio es: '+ promedio + "  usted reprobo";
         }
         
-    }else{
-        result.textContent= 'Nota mal';
     }
 }
