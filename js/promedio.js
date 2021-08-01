@@ -29,9 +29,11 @@ function promedio(){
         
         if(promedio >3.5){
             result.textContent= 'Señor(a) '+nombre.value+' Su promedio es: '+ promedio + " usted aprobo";
+            result.style.color ='green';
         }
         else{
             result.textContent= 'Señor(a) '+nombre.value+' Su promedio es: '+ promedio + "  usted reprobo";
+            result.style.color ='red';
         }
         
     }
