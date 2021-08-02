@@ -17,9 +17,13 @@ body{
     width: 100%;
     align-items: center;
     border: black 1px solid;
+    
+} 
+.header .title{
+    text-shadow: -2px -3px 5px black;
 }
 .contenido{
-    background-color: #3c4043;
+    background-color: #d3dae2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,18 +32,15 @@ body{
     border: black 1px solid;
 }
 .contenido .container{
-    background-color: #3565F2;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 50px;
-    width: 50%;
+    width: 35%;
     border: black 1px solid;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    margin: 60px;
+    background-color: #d3dae2;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 2px;
 }
 
 .contenido .container .span{
@@ -59,11 +60,13 @@ body{
     border-radius: 5px;
     padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    
+    border-radius: 5px;
     box-sizing: border-box;
     color: #2C3E50;
-
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .contenido .container .input:focus{
     width: 65%;
@@ -98,7 +101,7 @@ body{
 
 .contenido .container .button{
     width: 100px;
-    background: #27AE60;
+    background: #00c4f8;
     font-weight: bold;
     color: white;
     border: 0 none;
@@ -114,16 +117,16 @@ body{
 }
 
 .resultado{
-    background-color: #52B4FF ;
+    background-color: #23d4fd ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 58%;
     border: black 1px solid;
-    border-radius: 10px;
-    height: 50%;
-    margin-left: 10px;
+    height: 100%;
+    box-shadow: 0px 6px 12px 2px;
+    
 }
 .resultado img{
     margin-bottom: 15px;
