@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 900px;
+    background-color: #0D95D9;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 10%;
+}
+.header .div_color{
+    display: flex;
+    width: 15%;
+    margin-right: 50px;
+}
+
+.header .div_color .input_color{
+    margin-right: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+
+.header .div_color .button_color{
+    border-radius: 100%;
+    width: 100px;
+    height: 45px;
+}
+.header .div_pixeles .button{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.header .div_pixeles span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+}
+.container .contenido_principal{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+.container .contenido_principal .div_contenido_color{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 20%;
+}
+
+.container .contenido_principal .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid beige;
+    height: 100%;
+}
+.container .contenido_principal .contenido .title{
+    margin: 10px;
+    align-self: center;
+}
+.container .contenido_principal .contenido .p{
+    margin: 15px;
+    align-self: center;
+}
+.container .contenido_principal .contenido .a{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.container .contenido_principal .contenido .folder{
+    
+    align-self: flex-end;
+    margin: 20px;
+
+}
